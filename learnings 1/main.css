@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+#product-overview{
+    background:url("freedom.jpg");
+    width: 100%;
+    height: 528px;
+    padding: 10px;
+    /* background-repeat: no-repeat; */
+    /* padding: 10px;
+    border: 5px solid black;
+    margin: 10px; */
+}
+.section-title {
+    color: #2ddf5c;
+}
+
+#product-overview h1 {
+    color: rgb(251, 251, 251);
+    font-family: 'Anton', sans-serif;
+}
+
+/* h1 {
+    font-family: sans-serif;
+} */
+.main-header{
+    width: 100%;
+    background-color: #2ddf5c;
+    padding: 8px 16px;
+}
+.main-header > div{
+    vertical-align: middle;
+    display: inline-block;
+}
+.lis{
+    display: inline-block;
+    margin: 0px 16px;
+    text-decoration:none;
+   
+}
+.navi{
+    vertical-align: middle;
+    display: inline-block;
+    text-align:right;
+    width: calc(100% - 75px);
+}
+.unor{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#thala{
+    color: rgb(0, 12, 79);
+    text-decoration:none;
+    font-weight: bold;
+    font-size: 22px;
+}
+.lis a{ 
+    font-weight: bold;
+    text-decoration:none;
+    color:black;
+    padding: 2px 0px;
+}
+.lis a:hover,
+.lis a:active{
+    color:white;
+    border-bottom: 3px solid white;
+}
+.lislas a{
+    color: white;
+    background: red;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+.lislas a:hover,
+.lislas a:active{
+    color: red;
+    background: white;
+    border: none;
+}
